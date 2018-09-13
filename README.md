@@ -20,4 +20,4 @@
     - git rm -f 文件名，可以强制将两处的文件都删除，不管工作区与暂存区文件的内容是否相同；
     - git rm --cached 文件名，只删除暂存区的文件。
   - git mv
-    - 
+    - to be continue
