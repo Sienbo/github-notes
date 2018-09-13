@@ -13,3 +13,11 @@
     - git reset 版本ID 文件名：将暂存区内该文件回滚指定版本ID对应的那个版本的文件。
   - git diff
     - ![git diff](https://github.com/Sienbo/github-notes/blob/master/git%20diff.jpg)
+  - git commit
+    - 使用 -- amend选项，git会更正最近一次提交，但是不会产生一个新的版本，例如 git commit --amend -m "重新提交一次"，会将最近提交的说明进行更改，但是不会新增加一个版本快照；
+  - git rm
+    - git rm 文件名，只是删除工作区和暂存区的文件，条件是工作区与暂存区文件内容相同，否则报错；
+    - git rm -f 文件名，可以强制将两处的文件都删除，不管工作区与暂存区文件的内容是否相同；
+    - git rm --cached 文件名，只删除暂存区的文件。
+  - git mv
+    - 
