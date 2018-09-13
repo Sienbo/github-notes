@@ -2,7 +2,7 @@
 记录一些git和github的使用方法，忘记时可以拿来参考
 ## git
 - git三棵树结构
-![git三棵树结构](https://github.com/Sienbo/github-notes/blob/master/git%20%E4%B8%89%E6%A3%B5%E6%A0%91%E7%BB%93%E6%9E%84.jpg)
+  - ![git三棵树结构](https://github.com/Sienbo/github-notes/blob/master/git%20%E4%B8%89%E6%A3%B5%E6%A0%91%E7%BB%93%E6%9E%84.jpg)
 - 一些常用的命令
   - reset
     - git reset HEAD：使用仓库中存有的文件覆盖暂存区的文件；
