@@ -14,25 +14,31 @@
   - git diff
     - ![git diff](https://github.com/Sienbo/github-notes/blob/master/git%20diff.jpg)
   - git commit
-    - 使用 -- amend选项，git会更正最近一次提交，但是不会产生一个新的版本，例如 git commit --amend -m "重新提交一次"，会将最近提交的说明进行更改，但是不会新增加一个版本快照；
+    - 使用 -- amend选项，git会更正最近一次提交，但是不会产生一个新的版本，例如 git commit --amend -m "重新提交一次"，会将最近提交的说明进行更改，但是不会新增加一个版本快照。
   - git rm
     - git rm 文件名，只是删除工作区和暂存区的文件，条件是工作区与暂存区文件内容相同，否则报错；
     - git rm -f 文件名，可以强制将两处的文件都删除，不管工作区与暂存区文件的内容是否相同；
     - git rm --cached 文件名，只删除暂存区的文件。
   - git mv
-    - to be continue
+    - to be continue；
   - git branch
-    - git branch:查看目前分支状态；
+    - git branch:查看目前分支列表；
     - git branch develop：创建一个名字为develop的分支；（相当于从现在所处的分支上完全拷贝一份快照，包括其中的添加和提交状态）
     - git checkout develop:切换到develop分支，在develop分支中修改，并add,commit后新的develop分支才算完全建立
     - git checkout -b develop:创建develop分支并且直接切换到分支上；
     - git branch -d develop:删除develop分支;（需要在其他的分支上进行）
+    - git checkout develop origin/develop:如果远程有个分支，将远程develop分支迁到本地；
+    - git checkout -b develop origin/develop:将远程分支迁到本地后顺便切换到该分支。
   - git merge
-    - git merge develop:将develop分支合并到当前所处的分支上；
+    - git merge develop:将develop分支合并到当前所处的分支上。
   - git checkout
     - git checkout --文件名：从暂存区回复文件到工作区；
     - git checkout 分支名：切换分支；
     - git checkout 版本ID:HEAD指针跳转到对应版本ID的快照，并将此版本内容还原到暂存区和工作区；
     - git checkout 版本ID 文件名：使用版本ID快照对应的文件还原工作去和暂存区的文件。
+  - git push
+    - git push origin master:将master分支的内容推送到远程仓库；
+    - git push origin:develop:删除远程分支。
+    
     
     
