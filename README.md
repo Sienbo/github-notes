@@ -21,3 +21,18 @@
     - git rm --cached 文件名，只删除暂存区的文件。
   - git mv
     - to be continue
+  - git branch
+    - git branch:查看目前分支状态；
+    - git branch develop：创建一个名字为develop的分支；（相当于从现在所处的分支上完全拷贝一份快照，包括其中的添加和提交状态）
+    - git checkout develop:切换到develop分支，在develop分支中修改，并add,commit后新的develop分支才算完全建立
+    - git checkout -b develop:创建develop分支并且直接切换到分支上；
+    - git branch -d develop:删除develop分支;（需要在其他的分支上进行）
+  - git merge
+    - git merge develop:将develop分支合并到当前所处的分支上；
+  - git checkout
+    - git checkout --文件名：从暂存区回复文件到工作区；
+    - git checkout 分支名：切换分支；
+    - git checkout 版本ID:HEAD指针跳转到对应版本ID的快照，并将此版本内容还原到暂存区和工作区；
+    - git checkout 版本ID 文件名：使用版本ID快照对应的文件还原工作去和暂存区的文件。
+    
+    
