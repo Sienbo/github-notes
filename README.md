@@ -40,5 +40,9 @@
     - git push origin master:将master分支的内容推送到远程仓库；
     - git push origin:develop:删除远程分支。
     
+  ## github上添加数学公式编辑功能
+    - 使用chrome浏览器
+    - [chrome插件](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima)
+    
     
     
