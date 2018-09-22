@@ -43,6 +43,10 @@
     - git remote add 远程仓库名 仓库地址；
     - eg:
       - git remote add origin git@github.com:Sienbo/machine-learning.git
+  - git pull
+    - git pull 远程分支名 本地分支名
+    - eg:
+      - git pull origin master
     
   ## github上添加数学公式编辑功能
     - 使用chrome浏览器
