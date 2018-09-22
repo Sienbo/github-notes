@@ -39,6 +39,10 @@
   - git push（远程推送）
     - git push origin master:将master分支的内容推送到远程仓库；
     - git push origin:develop:删除远程分支。
+  - git remote add(添加远程仓库)
+    - git remote add 远程仓库名 仓库地址；
+    - eg:
+      - git remote add origin git@github.com:Sienbo/machine-learning.git
     
   ## github上添加数学公式编辑功能
     - 使用chrome浏览器
